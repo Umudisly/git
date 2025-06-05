@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "mytfbucket010325"
+    bucket = "mymidnight-bucket"
     key    = "terraform"
     region = "us-east-1"
   }
